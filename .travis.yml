@@ -2,5 +2,6 @@ language: java
 jdk: oraclejkd9
 script :
   - cd weka
+  - ant -version
   - javac -version
   - ant run_tests_core
