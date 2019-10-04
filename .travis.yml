@@ -3,6 +3,7 @@ before_install:
   - sudo apt-get -qq update
   - sudo apt-get install ant
 language: java
+ant: 1.10.7
 jdk: oraclejkd9
 script:
   - cd weka
