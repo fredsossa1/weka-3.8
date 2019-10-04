@@ -1,12 +1,11 @@
 dist: xenial
+language: java
+jdk: oraclejkd9
 before_install:
+  - cd weka
   - sudo apt-get -qq update
   - sudo apt-get install ant
-language: java
-ant: 1.10.7
-jdk: oraclejkd9
 script:
-  - cd weka
   - ant -version
   - javac -version
-  - ant run_tests_core
+  - ant
