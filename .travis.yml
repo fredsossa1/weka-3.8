@@ -1,10 +1,6 @@
 language: java
-jdk: 
-  - oraclejkd9
-  - oraclejdk8
-  - oraclejdk11
-  - openjdk10
-  - openjdk11
+jdk: oraclejkd9
 script :
   - cd weka
+  - javac -version
   - ant
