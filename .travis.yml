@@ -1,2 +1,5 @@
 language: java
 jdk: oraclejkd9
+script :
+  - cd weka
+  - ant
