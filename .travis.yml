@@ -1,3 +1,2 @@
 language: java
-jdk: oraclejkd8
-dist: trusty
+jdk: oraclejkd9
