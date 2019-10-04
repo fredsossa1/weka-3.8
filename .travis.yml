@@ -3,4 +3,4 @@ jdk: oraclejkd9
 script :
   - cd weka
   - javac -version
-  - ant
+  - ant run_tests_core
